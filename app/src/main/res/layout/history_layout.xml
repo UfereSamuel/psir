@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BRN: -"
+                android:textColor="@color/greenColour"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/brn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="BRN"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/greenColour"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/desc1"
+                android:layout_toRightOf="@+id/desc1" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRN: -"
+                android:textColor="@color/redColour"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/desc1"/>
+
+            <TextView
+                android:id="@+id/prn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="PRN -"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/redColour"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/desc2"
+                android:layout_toRightOf="@+id/desc2"
+                android:layout_below="@+id/brn"/>
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: -"
+                android:textColor="@color/ashColour"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/desc2"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Date: -"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/ashColour"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/desc3"
+                android:layout_toRightOf="@+id/desc3"
+                android:layout_below="@+id/prn"/>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
